@@ -8,6 +8,51 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>Welcome to Payoo</h1>
+ <main class="flex justify-center">
+       <div class="mockup-phone">
+  <div class="camera"></div>
+  <div class="display">
+    <div class="artboard artboard-demo phone-3">
+        <!-- balance section -->
+         <div>
+            <div class="stats shadow">
+  <div class="stat">
+    <div class="stat-value">9400</div>
+    <div class="stat-desc">Available Balance</div>
+  </div>
+</div>
+         </div>
+         <div class="divider"></div>
+         <!-- user action buttons -->
+          <div>
+            <button class="btn btn-lg">Add Money</button>
+            <button class="btn btn-lg">Cash Out</button>
+          </div>
+          <div class="divider"></div>
+    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+      <form class="card-body">
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text">Amount</span>
+          </label>
+          <input id="phone-number" type="text" placeholder="Amount to add" class="input input-bordered" required />
+        </div>
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text">Pin</span>
+          </label>
+          <input type="password" id="pin-number" placeholder="Your Pin" class="input input-bordered" required autocomplete="off"/>
+        </div>
+        <div class="form-control mt-6">
+          <button class="btn btn-primary" id="login-button">Add Money</button>
+        </div>
+      </form>
+    </div>
+
+    </div>
+  </div>
+</div>
+  <script src="js/home.js"></script>
+ </main>
 </body>
 </html>
