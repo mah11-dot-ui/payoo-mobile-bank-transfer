@@ -10,7 +10,7 @@ document.getElementById('login-button').addEventListener('click', function(e){
     console.log('Pin Number: ' + PinNumber);
 
 
-    if(PhoneNumber === '01716157704' && PinNumber === '1234'){
+    if(PhoneNumber === '01*******55' && PinNumber === '1234'){
         console.log('Login successful!');
         window.location.href = '/home.html';
     }else{
