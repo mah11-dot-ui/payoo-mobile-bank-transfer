@@ -1,4 +1,4 @@
-# Payoo for Mobile(MFS)
+# Payoo
 
 
 
